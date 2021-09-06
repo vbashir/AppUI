@@ -11,7 +11,7 @@ struct FirstScreen: View {
     @Binding var tab: Tab
     @Binding var selectLink: Bool
     var body: some View {
-        Button("Открыть первый пункт из списка", action: {
+        Button("Открыть второй пункт из списка", action: {
             self.tab = .secondTab
             self.selectLink = true
         })
