@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2098FC726E64E4900C4A291 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2098FC626E64E4900C4A291 /* ActivityIndicator.swift */; };
 		F2C8E0F026DCBEF500A5816D /* AppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8E0EF26DCBEF500A5816D /* AppUIApp.swift */; };
 		F2C8E0F226DCBEF500A5816D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8E0F126DCBEF500A5816D /* ContentView.swift */; };
 		F2C8E0F426DCBEF700A5816D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C8E0F326DCBEF700A5816D /* Assets.xcassets */; };
 		F2C8E0F726DCBEF700A5816D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C8E0F626DCBEF700A5816D /* Preview Assets.xcassets */; };
+		F2C8E0FF26DCBF6300A5816D /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8E0FE26DCBF6300A5816D /* FirstScreen.swift */; };
+		F2C8E10126DCBF7200A5816D /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8E10026DCBF7200A5816D /* SecondScreen.swift */; };
+		F2C8E10326DCBF8F00A5816D /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C8E10226DCBF8F00A5816D /* ThirdScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2098FC626E64E4900C4A291 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		F2C8E0EC26DCBEF500A5816D /* AppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C8E0EF26DCBEF500A5816D /* AppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIApp.swift; sourceTree = "<group>"; };
 		F2C8E0F126DCBEF500A5816D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2C8E0F326DCBEF700A5816D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C8E0F626DCBEF700A5816D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2C8E0F826DCBEF700A5816D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2C8E0FE26DCBF6300A5816D /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		F2C8E10026DCBF7200A5816D /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		F2C8E10226DCBF8F00A5816D /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				F2C8E0F326DCBEF700A5816D /* Assets.xcassets */,
 				F2C8E0F826DCBEF700A5816D /* Info.plist */,
 				F2C8E0F526DCBEF700A5816D /* Preview Content */,
+				F2C8E0FE26DCBF6300A5816D /* FirstScreen.swift */,
+				F2C8E10026DCBF7200A5816D /* SecondScreen.swift */,
+				F2C8E10226DCBF8F00A5816D /* ThirdScreen.swift */,
+				F2098FC626E64E4900C4A291 /* ActivityIndicator.swift */,
 			);
 			path = AppUI;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C8E0F226DCBEF500A5816D /* ContentView.swift in Sources */,
+				F2C8E10126DCBF7200A5816D /* SecondScreen.swift in Sources */,
+				F2C8E10326DCBF8F00A5816D /* ThirdScreen.swift in Sources */,
 				F2C8E0F026DCBEF500A5816D /* AppUIApp.swift in Sources */,
+				F2098FC726E64E4900C4A291 /* ActivityIndicator.swift in Sources */,
+				F2C8E0FF26DCBF6300A5816D /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
